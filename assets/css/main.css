@@ -1,0 +1,33 @@
+/* @import 'tailwindcss'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--custom-color-black: 0, 0%, 11%;
+	--custom-color-light-gray: 0, 0%, 93%;
+	--custom-color-green: 135, 53%, 61%;
+	--custom-color-green-light: 146, 56%, 83%;
+	--c: hsl(0, 0%, 93%);
+}
+
+/* @utility container {
+	margin-inline: auto;
+	padding-inline: 1.25rem;
+} */
+
+/* @theme {
+	--font-Poppins: 'Poppins', 'serif';
+	--color-Black: hsl(var(--custom-color-black));
+	--color-LightGray: hsl(var(--custom-color-light-gray));
+	--color-Green: hsl(var(--custom-color-green));
+	--color-GreenLight: hsl(var(--custom-color-green-light));
+} */
+
+* {
+	font-family: Poppins, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
